@@ -25,7 +25,7 @@ RUN npm run build
 FROM alpine
 LABEL org.opencontainers.image.title="Embedded VSCode" \
     org.opencontainers.image.description="An experiment embedded VSCode as a DD extension." \
-    org.opencontainers.image.vendor="Awesome Inc." \
+    org.opencontainers.image.vendor="Experimental" \
     com.docker.desktop.extension.api.version="0.3.3" \
     com.docker.extension.screenshots="" \
     com.docker.extension.detailed-description="" \
